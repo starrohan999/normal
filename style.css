@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2{
+
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+.coming-soon
+{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.countdown
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.day,
+.hour,
+.minutes,
+.seconds
+{
+    font-size: 2rem;
+}
+
+.our_image
+{
+    height: 60vh;
+}
