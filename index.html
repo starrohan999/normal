@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-2.1.4.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -39,6 +40,11 @@
         </div> 
         <img class="our_image"src="photos/coming image.jpg" alt="coming soon">   
     </div>
+    <div class="classic-1"></div>
+    <script>
+        $(window).on("load",function(){
+     $(".classic-1").fadeOut("slow");});
+    </script>
     <script src="app.js"></script>
 </body>
 </html>
