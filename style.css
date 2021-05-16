@@ -71,6 +71,7 @@ h2{
     background-color: black;
     border: 2px solid greenyellow;
     color: white;
+    cursor: pointer;
     border-radius: 20px;
 
 }
