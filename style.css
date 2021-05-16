@@ -54,3 +54,27 @@ h2{
 {
     height: 60vh;
 }
+.link-button
+{
+    padding-top:10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn
+{
+    
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    border: 2px solid greenyellow;
+    color: white;
+    border-radius: 20px;
+
+}
+.btn:hover{
+ background-color:indianred;
+ color:lime;
+}
