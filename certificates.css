@@ -7,6 +7,7 @@
 h1{
     text-align: center;
     font-family: 'Pattaya', sans-serif;
+    color:greenyellow
 }
 body{
     padding-top: 20px;
@@ -28,8 +29,8 @@ body{
     height: 400px;
     text-align: center;
     margin-top: 30px;
-    border:10px solid greenyellow;
-    box-shadow: 10px 20px 1px 0px rgb(245, 67, 67);
+    border:10px solid rgb(226, 226, 226);
+    box-shadow: 10px 20px 1px 0px rgb(100, 96, 96);
     margin-left: 20px;
     border-radius: 7px;
 
