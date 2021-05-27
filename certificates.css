@@ -1,0 +1,68 @@
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-family: 'Pattaya', sans-serif;
+}
+body{
+    padding-top: 20px;
+    background-color:black;
+    color:whitesmoke;
+    font-family: 'Arvo', sans-serif;
+}
+.Box
+{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+.card
+{
+    width: 270px;
+    height: 400px;
+    text-align: center;
+    margin-top: 30px;
+    border:10px solid greenyellow;
+    box-shadow: 10px 20px 1px 0px rgb(245, 67, 67);
+    margin-left: 20px;
+    border-radius: 7px;
+
+}
+.card img{
+    width: 100%;
+}
+.text{
+    background-color:rgb(245, 67, 67);
+    padding: 10px 10px 10px 10px;
+}
+
+.button
+{
+    margin:20px;
+
+}
+.button a{
+    text-align: center;
+    justify-content: center;
+    color:white;
+    background:crimson;
+    width: 180px;
+    height: 50px;
+    display: block;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    margin: 20px auto;
+    line-height: 50px;
+    text-decoration: none;
+}
+.button a:hover{
+    
+    background:yellowgreen;
+    color:black
+}
